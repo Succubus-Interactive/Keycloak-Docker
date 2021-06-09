@@ -26,8 +26,8 @@
 }
 
 .login-pf-page-header {
-  height: 27% !important;
-  min-height: 200px;
+  /* height: 27% !important; */
+  min-height: 300px;
 }
 
 .login-pf-page {
@@ -39,8 +39,8 @@ body::after {
   width: 100%;
   height: 8%;  
   min-height: 85px;
-  /* position: absolute; */
-  display:block;
+  position: absolute;
+  /* display:block; */
   background-image: url('../img/connect_logoclient.png'); 
   background-size: contain;
   background-repeat: no-repeat;
@@ -88,6 +88,7 @@ div.card-pf {
   }
 }
 
+
 @media (max-width: 840px) {
   .login-pf-page .card-pf {
     margin-right: 10% !important;
@@ -95,10 +96,13 @@ div.card-pf {
   }
 }
 
-@media (max-height: 1024px) {
-  .login-pf-page::after {
-    bottom: unset;
+@media (max-height: 1000px) {
+  body::after {
     display: block;
+    position: unset;  
+  }
+  .login-pf-page-header {
+    min-height: 200px;
   }
 }
 
