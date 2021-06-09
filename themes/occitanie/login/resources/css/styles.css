@@ -1,0 +1,116 @@
+.login-pf {
+  background: none;
+  height: auto !important;
+  min-height: 100% !important;
+}
+
+.login-pf body {
+  background: #8A0E10;
+  /* background-image: url('../img/connect_logoclient.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% auto;
+  padding-bottom: 200px;
+  min-height: 100% !important; */
+}
+
+
+
+.login-pf-page,
+#kc-header-wrapper  {
+  height: 100% !important;
+}
+
+#kc-header-wrapper  {
+  padding: 0 !important;
+}
+
+.login-pf-page-header {
+  height: 27% !important;
+  min-height: 200px;
+}
+
+.login-pf-page {
+  position: relative;
+}
+/*8% of full height*/
+body::after {
+  content: ' ';
+  width: 100%;
+  height: 8%;  
+  min-height: 85px;
+  /* position: absolute; */
+  display:block;
+  background-image: url('../img/connect_logoclient.png'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: 2rem;
+}
+
+div.kc-logo-text {
+  background: none !important;
+}
+
+div.login-pf-page-header {
+  background-image: url('../img/connect_logo_occitanie.png');
+  height: 100%;
+  margin: auto;
+  background-size: 100%;
+  background-size: contain !important;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+div.card-pf {
+  background: #fff;
+  border-radius: 60px;
+  /* max-width: 540px; */
+  box-shadow: none;
+}
+
+.card-pf {
+  border: none;
+}
+
+#kc-content {
+  margin: auto;
+}
+
+@media (max-width: 767px) {
+  #kc-header-wrapper {
+    padding: 20px 10px 20px;
+  }
+}
+
+@media (max-width: 840px) {
+  .login-pf-page .card-pf {
+    margin-right: 10% !important;
+    margin-left: 10% !important;
+  }
+}
+
+@media (max-height: 1024px) {
+  .login-pf-page::after {
+    bottom: unset;
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .login-pf-page .login-pf-page-header {
+    margin-bottom:  0;
+  }
+}
+
+@media (max-width: 840px){
+  .login-pf-page .card-pf {
+    margin: auto;
+    /* padding: 20px 40px 30px 40px; */
+  }
+}
