@@ -6,6 +6,7 @@
 
 .login-pf body {
   background: #8A0E10;
+  /* background: blue; */
   /* background-image: url('../img/connect_logoclient.png');
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -26,8 +27,7 @@
 }
 
 .login-pf-page-header {
-  /* height: 27% !important; */
-  min-height: 300px;
+  min-height: 225px;
 }
 
 .login-pf-page {
